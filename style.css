@@ -118,3 +118,42 @@ body
     color: #8F7CEC;
     text-decoration: none;
 }
+
+
+/* Rejestracja */
+
+#tittle
+{
+    margin-bottom: 20px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.button-form_register
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#register_register
+{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #CBBDDB;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+
+#register_register a 
+{
+    margin: auto;
+    color: #8F7CEC;
+    text-decoration: none;
+}
+
+
+
