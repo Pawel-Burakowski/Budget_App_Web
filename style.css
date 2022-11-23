@@ -214,3 +214,101 @@ a.opcionlink
     color: #8F7CEC;
     text-decoration: none;
 }
+
+
+/* Przychody */
+
+.addIncomes
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #242026;
+    box-shadow: 0 15px 25px rgba(164, 162, 175, 0.7);
+    border-radius: 10px;
+}
+
+.addIncomes h2
+{
+    margin-bottom: 50px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.addIncomes form 
+{
+	padding: 0px;
+	margin: 30px 0;
+}
+
+#pole
+{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.category 
+{
+    color: #fff;
+	margin-top: 10px;
+}
+
+.incomescategory 
+{
+    font-size: 0.8rem;
+	margin-top: 5px;
+}
+
+.acceptButton
+{
+    width: 100px;
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: .5s;
+    border: 1px solid #8F7CEC;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.acceptButton:hover
+{
+    background: #8F7CEC;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cancelButton 
+{
+    width: 100px;
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: .5s;
+    border: 1px solid #8F7CEC;
+    margin: auto; 
+    font-weight: bold;     
+	text-align: center;
+	display: inline-block;
+	border-radius: 8px;
+    margin-top: 20px;
+}
+
+.cancelButton:hover
+{
+    background: #8F7CEC;
+    color: #fff;
+    border-radius: 5px;
+}
+
+textarea
+{
+	resize: none;
+}
