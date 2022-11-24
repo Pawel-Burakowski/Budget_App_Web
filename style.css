@@ -312,3 +312,40 @@ textarea
 {
 	resize: none;
 }
+
+
+/* Wydatki */
+
+.addExpenses
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #242026;
+    box-shadow: 0 15px 25px rgba(164, 162, 175, 0.7);
+    border-radius: 10px;
+}
+
+.addExpenses h2
+{
+    margin-bottom: 50px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.addExpenses form 
+{
+	padding: 0px;
+	margin: 30px 0;
+}
+
+.expensescategory
+{
+    font-size: 0.8rem;
+	margin-top: 5px;
+}

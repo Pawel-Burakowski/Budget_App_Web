@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Budget </title>
+    <meta name="description" content="Aplikacja napisana w ramach nauki z kursu programowania Przyszły Programista">
+    <meta name="author" content="Paweł Burakowski">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="addExpenses">
+            <h2>Dodaj wydatek</h2>
+            <form>
+                <div id="pole"><label> Kwota <input class="textfield" placeholder="Wprowadź kwotę" type="number"
+                            name="sum" step="0.1" required></label>
+                </div>
+
+                <div id="pole"><label> Data <input class="textfield" type="date" name="date" required></label>
+                </div>
+
+                <div class="category">
+                    Sposób płatności:
+
+                    <div class="expensescategory"><label><input type="radio" name="category" checked> Gotówka </label>
+                    </div>
+
+                    <div class="expensescategory"><label><input type="radio" name="category"> Karta debetowa </label>
+                    </div>
+
+                    <div class="expensescategory"><label><input type="radio" name="category"> Karta kredytowa </label>
+                    </div>
+
+                </div>
+                <div class="category">
+                    <div><label>Kategoria
+                            <div id="choice">
+                                <select>
+                                    <option selected>Jedzenie</option>
+                                    <option>Mieszkanie</option>
+                                    <option>Transport</option>
+                                    <option>Telekomunikacja</option>
+                                    <option>Opieka zdrowotna</option>
+                                    <option>Ubranie</option>
+                                    <option>Higiena</option>
+                                    <option>Dzieci</option>
+                                    <option>Rozrywka</option>
+                                    <option>Wycieczka</option>
+                                    <option>Szkolenia</option>
+                                    <option>Książki</option>
+                                    <option>Oszczędności</option>
+                                    <option>Na złotą jesień, czyli emeryturę</option>
+                                    <option>Spłata długów</option>
+                                    <option>Darowizna</option>
+                                    <option>Inne wydatki</option>
+                                </select>
+                            </div>
+                        </label></div>
+                </div>
+
+                <div class="category">
+
+                    <div><label><textarea id="comment" rows="2" cols="28"
+                                placeholder="Komentarz (opcjonalnie)"></textarea></div>
+
+                </div>
+
+                <div class="formButton"><input class="acceptButton" type="submit" value="Dodaj"></div>
+
+                <div class="formButton2"><a href="mainMenu.html" class="cancelButton">Anuluj</a></div>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
