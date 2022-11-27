@@ -142,17 +142,85 @@ form
 
 /* Rejestracja */
 
-/* #tittle
+.register-box
+{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: calc(100% - 25px);
+    width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+    background: #242026;
+    box-shadow: 0 15px 25px rgba(164, 162, 175, 0.7);
+    border-radius: 10px;
+}
+
+.register-box h2 
 {
-    margin-bottom: 20px;
-    padding: 0;
+    padding-top: 20%;
+    height: 25%;
+    margin-left: auto;
+	margin-right: auto;
     color: #fff;
     text-align: center;
     font-size: 1.6rem;
 }
 
+.register-box form
+{
+    height: 65%;
+}
+
+.register-box .user-box
+{
+    margin-left: auto;
+	margin-right: auto;
+    width: 90%;
+}
+
+.register-box .user-box input
+{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.register-box .user-box label 
+{
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.register-box .user-box input:focus~label,
+.register-box .user-box input:valid~label 
+{
+    top: -85px;
+    left: 0;
+    color: #8F7CEC;
+    font-size: 0.8rem;
+}
+
 .button-form_register
 {
+    position: relative;
+    padding-top: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -164,7 +232,7 @@ form
     text-decoration: none;
     color: #CBBDDB;
     margin: auto;
-    width: 25%;
+    width: 35%;
     text-align: center;
 }
 
@@ -176,8 +244,11 @@ form
 }
 
 
-/* Menu glowne */
 
+
+
+/* Menu glowne */
+/* 
 .menu 
 {
     position: absolute;
@@ -234,10 +305,10 @@ a.opcionlink
     color: #8F7CEC;
     text-decoration: none;
 }
-
+ */
 
 /* Przychody */
-
+/* 
 .addIncomes
 {
     position: absolute;
@@ -331,12 +402,12 @@ a.opcionlink
 textarea
 {
 	resize: none;
-}
+} */
 
 
 /* Wydatki */
 
-.addExpenses
+/* .addExpenses
 {
     position: absolute;
     top: 50%;
@@ -368,12 +439,12 @@ textarea
 {
     font-size: 0.8rem;
 	margin-top: 5px;
-}
+} */
 
 
 /* Bilans */
 
-.balance 
+/* .balance 
 {
     position: absolute;
     top: 50%;
@@ -423,4 +494,4 @@ table tr:nth-child(1)
 {
     color: #8F7CEC;
     font-size: 1rem;
-}
+} */
